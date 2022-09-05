@@ -1,0 +1,59 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    margin-top: -1.6875rem;
+    width: 46rem;
+}
+.addNewTodoContainer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    gap: .5rem;
+    margin-bottom: 4.06rem;
+}
+
+.addNewTodoInput{
+    width: 100%;
+    height: 3.375rem;
+    border-radius: 8px;
+    padding: 1rem;
+    border: 1px solid var(--gray-700);
+    background-color: var(--gray-500);
+}
+.todoListContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    
+}
+.todoListContainerHeader{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerInfo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 0.875rem;
+}
+.createdTodos{
+    color: var(--blue);
+}
+.concluded{
+    color: var(--purple);
+}
+.counter{
+    background-color: var(--gray-400);
+    font-size: 0.75rem;
+    border-radius: 8px;
+    padding: 0.125rem 0.5rem;
+    margin-left: .5rem;
+}
+.todoList{
+    margin-top: 1.5rem;
+}
