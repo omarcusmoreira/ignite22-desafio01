@@ -12,11 +12,13 @@
 .todoContent{
     color: var(--gray-100);
     font-size: 0.875rem;
+    width: 100%;
 }
 .todoContentChecked{
   color: var(--gray-300);
   font-size: 0.875rem;
   text-decoration: line-through;
+  width: 100%;
 }
 .customCheckbox{
     appearance: none;
